@@ -30,8 +30,12 @@ public class RollTheDiceApplication {
             if (sum == 7) {
                 sevenCounter++;
             }
-
-
         }
+
+        System.out.println();
+        System.out.println("Times 2 was rolled: " + twoCounter);
+        System.out.println("Times 4 was rolled: " + fourCounter);
+        System.out.println("Times 6 was rolled: " + sixCounter);
+        System.out.println("Times 7 was rolled: " + sevenCounter);
     }
 }
