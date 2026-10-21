@@ -16,9 +16,20 @@ public class RollTheDiceApplication {
             roll2 = dice.roll();
             int sum = roll1 + roll2;
 
-            System.out.println();
+            System.out.println("Roll" + i + ":" + roll1 + "-" + roll2 + "  Sum: " + sum);
 
-
+            if (sum == 2) {
+                twoCounter++;
+            }
+            if (sum == 4) {
+                fourCounter++;
+            }
+            if (sum == 6) {
+                sixCounter++;
+            }
+            if (sum == 7) {
+                sevenCounter++;
+            }
 
 
         }
